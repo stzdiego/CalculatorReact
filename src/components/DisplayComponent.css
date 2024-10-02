@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../assets/fonts/digital-7.ttf') format('truetype');
+}
+
+.display {
+    padding: 0;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 3.5rem;
+    text-align: right;
+    background-color: cornflowerblue;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: black 12px solid;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+}
