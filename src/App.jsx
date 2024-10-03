@@ -30,6 +30,9 @@ function App() {
                 }
                 setResult(null);
             } else {
+                if (display === '' && ['+', '-', 'X', '÷'].includes(value)) {
+                    return;
+                }
                 setDisplay(display + value);
             }
         }
